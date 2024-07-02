@@ -164,7 +164,7 @@ do_action('woocommerce_before_main_content');
                         <td colspan="6">
                             <a class="btn btn-link px-0 btn-coupon" type="button" data-bs-toggle="collapse"
                                data-bs-target="#collapseCoupon" aria-expanded="false" aria-controls="collapseCoupon">
-                                Have a Coupon?
+                                <?php _e('Have a coupon?','gleshop');?>
                             </a>
                             <div class="coupon collapse input-group" id="collapseCoupon">
                                 <label for="coupon_code" class="screen-reader-text"><?php esc_html_e( 'Coupon:', 'woocommerce' ); ?></label>

@@ -103,8 +103,8 @@ do_action('woocommerce_before_mini_cart'); ?>
     <?php do_action( 'woocommerce_widget_shopping_cart_before_buttons' ); ?>
 
     <div class="text-end woocommerce-mini-cart__buttons buttons">
-        <a href="<?php wc_get_cart_url();?>" class="btn btn-outline-danger"><?php _e('Cart','gleschop');?></a>
-        <a href="<?php wc_get_checkout_url();?>" class="btn btn-outline-secondary"><?php _e('Checout','gleschop');?></a>
+        <a href="<?php echo wc_get_cart_url();?>" class="btn btn-outline-danger"><?php _e('Cart','gleshop');?></a>
+        <a href="<?php echo wc_get_checkout_url();?>" class="btn btn-outline-secondary"><?php _e('Checkout','gleshop');?></a>
     </div>
 
     <?php do_action( 'woocommerce_widget_shopping_cart_after_buttons' ); ?>

@@ -1,0 +1,571 @@
+# Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"POT-Creation-Date: 2024-07-02 14:38+0300\n"
+"PO-Revision-Date: 2024-07-02 14:41+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Domain: _s\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+
+#: front-page.php:103
+msgid "Categories"
+msgstr "Категории"
+
+#: front-page.php:119
+msgid "Featured products"
+msgstr "Рекомендуемые товары"
+
+#: front-page.php:168
+msgid "New Products"
+msgstr "Новый товары"
+
+#: functions.php:14
+msgid "Header menu"
+msgstr "Меню в шапке"
+
+#: functions.php:15
+msgid "Footer menu"
+msgstr "Нижнее меню"
+
+#: functions.php:58
+msgid "Sidebar"
+msgstr "Слайдер"
+
+#: functions.php:60
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Добавьте виджеты сюда, для боковой панели."
+
+#: incs/cpt.php:9 incs/cpt.php:10 incs/cpt.php:16
+msgid "Slider"
+msgstr "Слайд"
+
+#: incs/cpt.php:11
+msgid "Add new slide"
+msgstr "Добавить слайд"
+
+#: incs/cpt.php:12 incs/cpt.php:14
+msgid "New slide"
+msgstr "Новый слайд"
+
+#: incs/cpt.php:13
+msgid "Edit"
+msgstr "Редактировать"
+
+#: incs/cpt.php:15
+msgid "View"
+msgstr "Просмотр"
+
+#: incs/cpt.php:17
+msgid "All slides"
+msgstr "Все слайды"
+
+#: incs/customizer.php:6
+msgid "Theme options"
+msgstr "Опции темы"
+
+#: incs/customizer.php:13
+msgid "Phone in header"
+msgstr "Телефон в шапке"
+
+#: incs/customizer.php:20
+msgid "Address in footer"
+msgstr "Адрес в подвале"
+
+#: incs/customizer.php:27
+msgid "Working hours in footer"
+msgstr "Часы работы в фоотере"
+
+#: incs/woocommerce-hooks.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Рейтинг %s из 5"
+
+#: incs/woocommerce-hooks.php:88
+msgid "Home"
+msgstr "Главная"
+
+#: woocommerce/cart/cart-empty.php:37
+msgid "Return to shop"
+msgstr "Вернутся в магазин"
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid "Shipping costs are calculated during checkout."
+msgstr "Стоимость доставки рассчитывается при оформлении заказа."
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Enter your address to view shipping options."
+msgstr "Введите свой адрес, чтобы просмотреть варианты доставки."
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Вариантов доставки нет. Пожалуйста, убедитесь, что ваш адрес введен "
+"правильно, или свяжитесь с нами, если вам нужна помощь."
+
+#: woocommerce/cart/cart-shipping.php:69
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "Не найдено вариантов доставки для %s."
+
+#: woocommerce/cart/cart-shipping.php:73
+msgid "Enter a different address"
+msgstr "Введите другой адрес"
+
+#: woocommerce/cart/cart-totals.php:25
+msgid "Cart totals"
+msgstr "Сумма корзины"
+
+#: woocommerce/cart/cart-totals.php:31 woocommerce/cart/cart.php:39
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:56
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: woocommerce/cart/cart-totals.php:53
+msgid "Shipping"
+msgstr "Перевозки"
+
+#: woocommerce/cart/cart-totals.php:73
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(по оценкам, для %s)"
+
+#: woocommerce/cart/cart-totals.php:99 woocommerce/checkout/review-order.php:103
+#: woocommerce/order/order-details.php:53
+msgid "Total"
+msgstr "Общий"
+
+#: woocommerce/cart/cart.php:35
+msgid "Thumbnail image"
+msgstr "Миниатюрное изображение"
+
+#: woocommerce/cart/cart.php:36 woocommerce/checkout/review-order.php:23
+#: woocommerce/order/order-details.php:52 woocommerce/ti-wishlist.php:45
+msgid "Product"
+msgstr "Продукт"
+
+#: woocommerce/cart/cart.php:37
+msgid "Price"
+msgstr "Цена"
+
+#: woocommerce/cart/cart.php:38 woocommerce/global/quantity-input.php:24
+msgid "Quantity"
+msgstr "Количество"
+
+#: woocommerce/cart/cart.php:97
+msgid "Available on backorder"
+msgstr "Доступно по предварительному заказу"
+
+#: woocommerce/cart/cart.php:144 woocommerce/cart/mini-cart.php:71
+#, php-format
+msgid "Remove %s from cart"
+msgstr "Удалить %s из корзины"
+
+#: woocommerce/cart/cart.php:167 woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr "Есть купон?"
+
+#: woocommerce/cart/cart.php:170 woocommerce/checkout/form-coupon.php:33
+msgid "Coupon:"
+msgstr "Купон:"
+
+#: woocommerce/cart/cart.php:172 woocommerce/checkout/form-coupon.php:35
+msgid "Apply coupon"
+msgstr "Применить купон"
+
+#: woocommerce/cart/cart.php:181
+msgid "Update cart"
+msgstr "Обновить корзину"
+
+#: woocommerce/cart/mini-cart.php:106
+msgid "Cart"
+msgstr "Корзина"
+
+#: woocommerce/cart/mini-cart.php:107
+msgid "Checkout"
+msgstr "Оформить заказ"
+
+#: woocommerce/cart/mini-cart.php:115
+msgid "No products in the cart."
+msgstr "Нет товаров в корзине."
+
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr "Перейти к оформлению заказа"
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr "Оплата &amp; Доставки"
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr "Платежные реквизиты"
+
+#: woocommerce/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr "Завести аккаунт?"
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr "Для оформления заказа нужно авторизоваться."
+
+#: woocommerce/checkout/form-checkout.php:59
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr "Нажмите здесь, чтобы ввести код"
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr "Если у вас есть код купона, вы можете воспользоваться им ниже."
+
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr "Доставка по другому адресу?"
+
+#: woocommerce/checkout/form-shipping.php:57
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: woocommerce/checkout/thankyou.php:36
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/merchant "
+"has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"К сожалению Ваш заказ не может быть выполнен, т.к. платежная система "
+"отклонила вашу транзакцию. Пожалуйста, повторите попытку покупки снова."
+
+#: woocommerce/checkout/thankyou.php:39
+msgid "Pay"
+msgstr "Оплатить"
+
+#: woocommerce/checkout/thankyou.php:41
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: woocommerce/checkout/thankyou.php:52
+msgid "Order number:"
+msgstr "Номер заказа:"
+
+#: woocommerce/checkout/thankyou.php:57
+msgid "Date:"
+msgstr "Дата:"
+
+#: woocommerce/checkout/thankyou.php:63
+msgid "Email:"
+msgstr "Email:"
+
+#: woocommerce/checkout/thankyou.php:69
+msgid "Total:"
+msgstr "Итого:"
+
+#: woocommerce/checkout/thankyou.php:75
+msgid "Payment method:"
+msgstr "Способ оплаты:"
+
+#: woocommerce/global/quantity-input.php:24
+#, php-format
+msgid "%s quantity"
+msgstr "%s количество"
+
+#: woocommerce/loop/sale-flash.php:28
+msgid "Sale!"
+msgstr "Акция!"
+
+#: woocommerce/loop/sale-flash.php:33
+msgid "Hit"
+msgstr "Хит"
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr "Имя"
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr "Фамилия"
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr "Отображаемое имя"
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr "Так будет отображаться ваше имя в разделе аккаунта и в отзывах"
+
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:82
+msgid "Email address"
+msgstr "Email адрес"
+
+#: woocommerce/myaccount/form-edit-account.php:57
+msgid "Password change"
+msgstr "Смена пароля"
+
+#: woocommerce/myaccount/form-edit-account.php:60
+msgid "Current password (leave blank to leave unchanged)"
+msgstr "Текущий пароль (оставьте пустым, чтобы оставить без изменений)"
+
+#: woocommerce/myaccount/form-edit-account.php:64
+msgid "New password (leave blank to leave unchanged)"
+msgstr "Новый пароль (оставьте пустым, чтобы оставить без изменений)"
+
+#: woocommerce/myaccount/form-edit-account.php:68
+msgid "Confirm new password"
+msgstr "Подтвердите новый пароль"
+
+#: woocommerce/myaccount/form-edit-account.php:85
+msgid "Save changes"
+msgstr "Сохранить"
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/order/order-details-customer.php:31
+msgid "Billing address"
+msgstr "Адрес плательщика"
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/order/order-details-customer.php:61
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr "Сохранить"
+
+#: woocommerce/myaccount/form-login.php:30
+msgid "Login"
+msgstr "Логин"
+
+#: woocommerce/myaccount/form-login.php:36
+msgid "Username or email address"
+msgstr "Имя пользователя или email"
+
+#: woocommerce/myaccount/form-login.php:40
+#: woocommerce/myaccount/form-login.php:89
+msgid "Password"
+msgstr "Пароль"
+
+#: woocommerce/myaccount/form-login.php:48
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: woocommerce/myaccount/form-login.php:52
+msgid "Log in"
+msgstr "Войти"
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Lost your password?"
+msgstr "Забыли пароль?"
+
+#: woocommerce/myaccount/form-login.php:67
+#: woocommerce/myaccount/form-login.php:103
+msgid "Register"
+msgstr "Регистрация"
+
+#: woocommerce/myaccount/form-login.php:75
+msgid "Username"
+msgstr "Логин"
+
+#: woocommerce/myaccount/form-login.php:95
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+"На ваш адрес электронной почты будет отправлена ​​ссылка для установки нового "
+"пароля."
+
+#: woocommerce/myaccount/orders.php:92
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: woocommerce/myaccount/orders.php:96
+msgid "Next"
+msgstr "Следующий"
+
+#: woocommerce/myaccount/orders.php:103
+msgid "No order has been made yet."
+msgstr "Заказ еще не сделан."
+
+#: woocommerce/myaccount/orders.php:103
+msgid "Browse products"
+msgstr "Обзор продуктов"
+
+#: woocommerce/order/order-details-customer.php:34
+#: woocommerce/order/order-details-customer.php:63
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:46
+msgid "Order details"
+msgstr "Информация о заказе"
+
+#: woocommerce/order/order-details.php:94
+msgid "Note:"
+msgstr "Примечание:"
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr "Пока нет отзывов."
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Add a review"
+msgstr "Добавить отзыв"
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Будьте первым, кто оставит обзор на &ldquo;%s&rdquo;"
+
+#: woocommerce/single-product-reviews.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Оставить комментарий к %s"
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Submit"
+msgstr "Отправить"
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Name"
+msgstr "Имя"
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Email"
+msgstr "Email"
+
+#: woocommerce/single-product-reviews.php:120
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr "Чтобы опубликовать отзыв, вы должны быть %1$s загружены в %2$s."
+
+#: woocommerce/single-product-reviews.php:124
+msgid "Your rating"
+msgstr "Ваш рейтинг"
+
+#: woocommerce/single-product-reviews.php:125
+msgid "Rate&hellip;"
+msgstr "Оценить&hellip;"
+
+#: woocommerce/single-product-reviews.php:126
+msgid "Perfect"
+msgstr "Идеальный"
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Good"
+msgstr "Хороший"
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Average"
+msgstr "Средний"
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Not that bad"
+msgstr "Не очень"
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Very poor"
+msgstr "Очень плохой"
+
+#: woocommerce/single-product-reviews.php:134
+msgid "Your review"
+msgstr "Ваш обзор"
+
+#: woocommerce/single-product-reviews.php:142
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Только авторизованные клиенты, купившие этот товар, могут оставить отзыв."
+
+#: woocommerce/single-product/add-to-cart/grouped.php:69
+msgid "Buy one of this item"
+msgstr "Купите один из этих товаров"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Данного товара на данный момент нет в наличии и он недоступен."
+
+#: woocommerce/single-product/add-to-cart/variable.php:55
+msgid "Clear"
+msgstr "Чистый"
+
+#: woocommerce/single-product/add-to-cart/variation.php:22
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+"К сожалению, этот товар недоступен. Пожалуйста, выберите другую комбинацию."
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr "Сопутствующие товары"
+
+#: woocommerce/single-product/up-sells.php:26
+msgid "You may also like&hellip;"
+msgstr "Вам также может понравиться &hellip;"
+
+#: woocommerce/ti-addedtowishlist-dialogbox.php:36
+msgid "Close"
+msgstr "Закрыть"
+
+#: woocommerce/ti-wishlist-empty.php:30
+msgid "Your Wishlist is currently empty."
+msgstr "Ваш список желаний пуст."
+
+#: woocommerce/ti-wishlist-empty.php:32
+msgid "Wishlist is currently empty."
+msgstr "Список желаний на данный момент пуст."
+
+#: woocommerce/ti-wishlist-empty.php:40
+msgid "Return To Shop"
+msgstr "Вернуться в магазин"
+
+#: woocommerce/ti-wishlist.php:38
+msgid "Select all for bulk action"
+msgstr "Выбрать все"
+
+#: woocommerce/ti-wishlist.php:44
+msgid "Product Name"
+msgstr "Наименование товара"
+
+#: woocommerce/ti-wishlist.php:48
+msgid "Unit Price"
+msgstr "Цена единицы товара"
+
+#: woocommerce/ti-wishlist.php:51
+msgid "Date Added"
+msgstr "Дата добавлена"
+
+#: woocommerce/ti-wishlist.php:54
+msgid "Stock Status"
+msgstr "Статус запасов"
+
+#: woocommerce/ti-wishlist.php:93
+msgid "Select for bulk action"
+msgstr "Выберите"
+
+#: woocommerce/ti-wishlist.php:101
+msgid "Remove"
+msgstr "Удалить"
+
+#: woocommerce/ti-wishlist.php:159
+msgid "In stock"
+msgstr "В наличии"
